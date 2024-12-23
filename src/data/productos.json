@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "nombre": "Budin",
+        "precio": 3000
+    },
+    {
+        "id": 2,
+        "nombre": "Alfajor de maicena",
+        "precio": 500
+    },
+    {
+        "id": 3,
+        "nombre": "Torta",
+        "precio": 4000
+    },
+    {
+        "id": 4,
+        "nombre": "Cupcake",
+        "precio": 1000
+    },
+    {
+        "id": 5,
+        "nombre": "Chocotorta",
+        "precio": 2000
+    },
+    {
+        "id": 6,
+        "nombre": "Brownie",
+        "precio": 1500
+    },
+    {
+        "id": 7,
+        "nombre": "Cookies",
+        "precio": 800
+    },
+    {
+        "id": 8,
+        "nombre": "Cheesecake",
+        "precio": 3500
+    },
+    {
+        "id": 9,
+        "nombre": "Macarons",
+        "precio": 2500
+    },
+    {
+        "id": 10,
+        "nombre": "Pan dulce",
+        "precio": 4500
+    },
+    {
+        "id": 11,
+        "nombre": "Medialunas",
+        "precio": 1200
+    },
+    {
+        "id": 12,
+        "nombre": "Lemon pie",
+        "precio": 3800
+    },
+    {
+        "id": 13,
+        "nombre": "Rosca de Pascua",
+        "precio": 3200
+    },
+    {
+        "id": 14,
+        "nombre": "Pastafrola",
+        "precio": 2500
+    },
+    {
+        "id": 15,
+        "nombre": "Tarta de frutas",
+        "precio": 4500
+    },
+    {
+        "id": 16,
+        "nombre": "Muffins",
+        "precio": 1100
+    },
+    {
+        "id": 17,
+        "nombre": "Tiramisú",
+        "precio": 3700
+    },
+    {
+        "id": 18,
+        "nombre": "Bizcochos",
+        "precio": 700
+    },
+    {
+        "id": 19,
+        "nombre": "Donuts",
+        "precio": 1500
+    },
+    {
+        "id": 20,
+        "nombre": "Brownie con nuez",
+        "precio": 1700
+    }
+]
