@@ -2,6 +2,7 @@ import { Router } from "express";
 import fs from 'fs';
 import path from 'path';
 import { __dirname } from '../dirname.js';
+import { readProducts } from './products.js';
 
 export const cart = Router();
 const cartFilePath = path.join(__dirname, './data/carrito.json');
@@ -14,8 +15,6 @@ function readCart() {
 function writeCart(data) {
     fs.writeFileSync(cartFilePath, JSON.stringify(data, null, 2));
 }
-
-const carrito = readCart();
 
 cart.post("/carrito", (req, res) => {
     const cartItems = readCart();

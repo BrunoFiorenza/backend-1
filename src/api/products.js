@@ -4,14 +4,15 @@ import path from 'path';
 import { __dirname } from '../dirname.js'
 
 export const products = Router();
+
 const productsFilePath = path.join(__dirname, './data/productos.json');
 
-function readProducts() {
+export function readProducts() {
     const data = fs.readFileSync(productsFilePath);
     return JSON.parse(data);
 }
 
-function writeProducts(data) {
+export function writeProducts(data) {
     fs.writeFileSync(productsFilePath, JSON.stringify(data, null, 2));
 }
 
@@ -96,3 +97,4 @@ products.delete("/productos/:pid", (req, res) => {
     productos.splice(index, 1);
     res.status(200).json({ message: "Producto eliminado exitosamente" });
 });
+
