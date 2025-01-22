@@ -2,6 +2,7 @@ import { Router } from "express";
 import fs from 'fs';
 import path from 'path';
 import { __dirname } from '../dirname.js'
+import { productsRoute } from "./productsRoutes.js";
 
 export const products = Router();
 
@@ -17,6 +18,14 @@ export function writeProducts(data) {
 }
 
 const productos = readProducts();
+
+products.get("/", (req, res) => {
+    res.render("home", { productos });
+});
+
+products.get("/productsRoute", (req, res) => {
+    res.render("productsRoute");
+});
 
 products.get("/productos", (req, res) => {
     const { limit } = req.query;

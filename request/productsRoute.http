@@ -1,0 +1,13 @@
+### GET Pokemons
+
+GET http://localhost:5000/api/productsRoute
+
+### POST Pokemon
+
+POST http://localhost:5000/api/productsRoute
+Content-Type: application/json
+
+{
+    "nombre": "Muffins",
+    "precio": 1100
+}
